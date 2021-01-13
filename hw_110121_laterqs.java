@@ -13,7 +13,7 @@ public class Main
         Scanner prn = new Scanner(System.in);
         Random r = new Random();
         
-                //ex3
+        //ex3
         int min3 = 0;
         int max3 = 99;
         createRandom(r, min3, max3);
