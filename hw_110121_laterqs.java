@@ -59,7 +59,7 @@ public class Main
 
     private static void createRandom(Random r, int min, int max)
     {
-        int random_num3 = r.nextInt(max - min);
+        int random_num3 = r.nextInt(max - min + 1) + min; 
         System.out.println(String.format("The random number between %d and %d is: %d", min, max, random_num3));
     }
 
